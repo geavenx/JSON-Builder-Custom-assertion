@@ -17,8 +17,8 @@ This is intended to be used with the composite assertion: "Run Assertions for Ea
     ```
 
 3. **Send the jar file to the API Gateway**
-    The jar is located at ./build/libs/jsonBuilderJava11-1.0-SNAPSHOT.jar, and should be placed in
-    /opt/SecureSpan/Gateway/runtime/modules/lib/the custom assertion comes here
+    The jar is located at *./build/libs/jsonBuilderJava11-1.0-SNAPSHOT.jar*, and should be placed in
+    /opt/SecureSpan/Gateway/runtime/modules/lib/
 
 4. **Restart the gateway**
     service ssg restart
